@@ -1,4 +1,3 @@
-// app.ts
 import express, { Application } from "express";
 import mongoose from "mongoose";
 import compression from "compression";
