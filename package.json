@@ -1,0 +1,42 @@
+{
+  "name": "vzy",
+  "version": "1.0.0",
+  "description": "Vzy Back-end Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "Isi Tony",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.17",
+    "ts-node-dev": "^2.0.0",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "morgan": "^1.10.0",
+    "stripe": "^14.16.0"
+  }
+}
